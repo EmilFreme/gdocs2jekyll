@@ -29,17 +29,17 @@ In your md file just use the tag
 
 The document ID can be found in the URL of your gdrive doc: 
 
-![gdriveurl.png]()
+![](gdriveurl.png)
 
 ### Comparison iframe embeded vs gdocs2jekyll jekyll tag
 
 The ugly iframe solution with 2 scrolls and not so good awful responsiveness
 
-![iframesample.png]()
+![](iframesample.png)
 
 gdocs2jekyll inserting the content "natively" in the page
 
-![tagsample.png]()
+![](tagsample.png)
 
 
 
