@@ -19,6 +19,20 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
     $ gem install gdocs2jekyll
 
+put this in your `_config.yml`
+
+```
+plugins: [gdocs2jekyll]
+```
+
+Finally, create a API Key in your Google Cloud Platform, with access to the Google Docs API, and set the `GOOGLE_DRIVE_API_KEY` environment variable 
+
+```
+export GOOGLE_DRIVE_API_KEY="your_generated_api_key"
+```
+
+Without this step, the tag won't generate any content.
+
 ## Usage
 
 In your md file just use the tag 
